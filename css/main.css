@@ -150,6 +150,7 @@ code{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 200;
 	width:100px;
+
 }
 
 #codeblock{
@@ -158,6 +159,26 @@ code{
 
 }
 
-
+#swatchblue{
+	display: inline-block;
+	background-color: #1987AC;
+	padding:2rem 1.5rem;
+	margin-left: 2rem;
+	color: white;
+}
+#swatchdblue{
+	display: inline-block;
+	background-color: #001237;
+	padding:2rem 1.5rem;
+	margin-left: 2rem;
+	color: white;
+}
+#swatchorg{
+	display: inline-block;
+	background-color: #FF6600;
+	padding:2rem 1.5rem;
+	margin-left: 2rem;
+	color: white;
+}
 
 
