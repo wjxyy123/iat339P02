@@ -180,5 +180,13 @@ code{
 	margin-left: 2rem;
 	color: white;
 }
+#swatchgry{
+	display: inline-block;
+	background-color: #DEDEDE;
+	padding:2rem 1.5rem;
+	margin-left: 2rem;
+	color: white;
+}
+
 
 
