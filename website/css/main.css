@@ -1,4 +1,55 @@
+/*styleguide*/
+
 img{
    max-width: 100%;
    height: auto;
+}
+
+body { /*styleguide is ...*/
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 2rem;
+
+ }
+
+ 
+
+h1,p{
+	
+	margin-left: 0.1rem;
+}
+
+h2,p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+	margin-top: 0.1em;
+	margin-bottom: 1rem;
+	margin-left: 0.2rem;
+}
+
+h3{ /*css selector, code sample*/
+	font-family: 'roboto', sans-serif;
+	font-weight:700;
+	font-size: 0.9rem;
+}
+
+nav a {
+
+	font-weight: bold;
+	
+	display: inline-block;
+	color: white;
+	background-color: #FF6600;
+	text-align: center; 
+	width: 120px;
+	
+	
+	padding:0.9rem 0.6rem ; /*the order of padding is top,right,bottom,left*/
+	text-decoration: none; 
+	border-radius: 5px; 
+	
+}
+
+nav a:first-of-type {
+	margin-left: 0;
+>>>>>>> f9d4471d9299706a4c431e09952dee8cc1b7b82d
 }
