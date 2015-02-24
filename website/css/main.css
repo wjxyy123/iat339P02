@@ -32,24 +32,10 @@ h3{ /*css selector, code sample*/
 	font-size: 0.9rem;
 }
 
-nav a {
+ 
 
-	font-weight: bold;
-	
-	display: inline-block;
-	color: white;
-	background-color: #FF6600;
-	text-align: center; 
-	width: 120px;
-	
-	
-	padding:0.9rem 0.6rem ; /*the order of padding is top,right,bottom,left*/
-	text-decoration: none; 
-	border-radius: 5px; 
-	
-}
 
 nav a:first-of-type {
 	margin-left: 0;
->>>>>>> f9d4471d9299706a4c431e09952dee8cc1b7b82d
+
 }
