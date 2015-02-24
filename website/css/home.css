@@ -11,38 +11,45 @@
 }
 
 .col-5of10 {
+	margin-top: 40px;
 	width: 50%;
 }
 
 @media (max-width: 50em) {
 
 	.col-5of10 {
+		margin-top: 40px;
 		width: 100%;
 	}
 
 }
 
 .col-2of10 {
+	margin-top: 40px;
 	width: 20%;
 }
 
 @media (max-width: 30em) {
 
 	.col-2of10 {
+		margin-top: 40px;
 		width: 100%;
 	}
 
 }
 
 .col-6of10 {
+	margin-top: 40px;
 	width: 60%;
 }
 
 .col-4of10 {
+	margin-top: 40px;
 	width: 40%;
 }
 
 .col-3of10 {
+	margin-top: 40px
 	width: 30%;
 }
 
