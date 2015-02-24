@@ -11,6 +11,22 @@ body { /*styleguide is ...*/
 
  }
 
+nav a {
+
+	font-weight: bold;
+	
+	display: inline-block;
+	color: white;
+	background-color: #FF6600;
+	text-align: center; 
+	width: 120px;
+	
+	
+	padding:0.9rem 0.6rem ; /*the order of padding is top,right,bottom,left*/
+	text-decoration: none; 
+	border-radius: 5px; 
+	
+}
  
 
 h1,p{
