@@ -30,7 +30,7 @@ nav a {
  
 
 h1,p{
-	
+	font-size: 3rem;
 	margin-left: 0.1rem;
 }
 
@@ -45,7 +45,7 @@ h2,p{
 h3{ /*css selector, code sample*/
 	font-family: 'roboto', sans-serif;
 	font-weight:700;
-	font-size: 0.9rem;
+	font-size: 1rem;
 }
 
  
