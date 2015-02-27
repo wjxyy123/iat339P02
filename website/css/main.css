@@ -29,8 +29,13 @@ nav a {
 }
  
 
-h1,p{
+h1{
 	font-size: 3rem;
+	margin-left: 0.1rem;
+
+}
+
+p{
 	margin-left: 0.1rem;
 }
 
