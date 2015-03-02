@@ -73,3 +73,11 @@ select {
   appearance: none;
   background: url(http://www.stackoverflow.com/favicon.ico) 96% / 15% no-repeat #eee;
 }
+/*target Internet Explorer 9 and Internet Explorer 10:*/
+
+@media screen and (min-width: 0\0) {
+  select {
+    background: none;
+    padding: 5px;
+  }
+}
