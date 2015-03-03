@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>YOUR STORY| BARKA The Dog Food Expert</title>
-    <link rel="stylesheet" href="css/yourstory.css">
+    <link rel="stylesheet" href="css/payment.css">
     <link rel="stylesheet" href="css/main.css">
     
     <link rel="stylesheet" href="home.html">
@@ -31,7 +31,7 @@
   <body>
     <header id="top">
     <h1>BARKA| The Dog Food Expert</h1>
-    <h2>ORDER</h2>
+    <h2>YOUR STORY</h2>
     <nav class="grid"> <!--grid for nav bar-->
 
       <div class="col-2of10">
@@ -56,9 +56,22 @@
     </header>
 
     <div class="grid">    <!--grid for content-->
-      <article id="petstory1">
-        <div class="col-7of10"><!--col for 'awards'-->
-          <img src="img/yourstory/dogowner-1.jpg" width="600" alt="dog owner Brian">
+      <article id="form">
+        <div class="col-6of10"><!--col for 'awards'-->
+          <h2>Review and Place Order</h2>
+            <form action="demo_form.asp" method="get">
+              Email: <input type="text" name="email"><br>
+              First name: <input type="text" name="fname"><br>
+              Last name: <input type="text" name="lname"><br>
+              Address: <input type="text" name="add-line1"><br>
+              City: <input type="text" name="city"><br>
+              Province: <input type="text" name="province"><br>
+              Postal Code: <input type="text" name="postal"><br>
+              Phone number: <input type="text" name="phone"><br>
+              <input type="submit" value="Place Order">
+            </form>
+
+
         </div> <!--close awards col-->
       </article>
 

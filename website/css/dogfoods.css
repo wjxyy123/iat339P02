@@ -59,6 +59,12 @@
 	clear: both;
 }
 
+.filter{
+	margin: 50px;
+	background-color: #E6E6E6;
+	display: inline-block;
+}
+
 select {
   margin: 50px;
   border: 1px solid #111;
