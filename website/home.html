@@ -19,92 +19,61 @@
     <link rel="stylesheet" href="aboutus.html">
     <link rel="stylesheet" href="shoppingcart.html">
 
-<style>
-  div.background{
-  background: url(beachdog.jpg) repeat;
-}
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:700' rel='stylesheet' type='text/css'>
 
-
-  div.transbox{
-  background-color: #ffffff;
-  opacity:0.6;
-  filter:alpha(opacity=60);
-}
-
- 
-
-  </style>
 </head>
   
   <body>
-    <a href="shoppingcart.html">YOUR CART</a>
-  <!--<img src="img/beachdog.jpg" alt="img">-->
-  <div class="background">
+    <!--
+    <a href="shoppingcart.html">YOUR CART</a>-->
+  
+ 
+
+
+
+<div class="overlay">
+
+  <img 
+  src="img/logo-x3.png "
+  srcset="img/logo-x2.png 2x,
+          img/logo-x1.png 1x">  
+
+<picture> <!--   >900 load lareg-->
+   <source 
+        media="(min-width: 500px)" 
+        srcset="img/logo-x3.png 3x">
+
+   <source 
+        srcset="img/logo.png 1x, img/logo.png 2x">
+    
+</picture>
+
   </div>
-  <div class="transbox">
-  </div>
-    <p>This is some text that is placed in the transparent box.</p>
-  </div>
-</div>
-
-  	<header id="top">
-  	<h1>BARKA| The Dog Food Expert</h1>
-  	<nav class="grid"> <!--grid for nav bar-->
-
-
-      <div class="col-2of10">
-        <a href="home.html">HOME</a>
-      </div>
-
-      <div class="col-2of10">
+  	
+<nav class="grid1"> <!--grid for nav bar-->
+      <div class="col-3of10">
         <a href="catagory.html">PRODUCT</a>
       </div> 
 
-      <div class="col-2of10">
-        <a href="healthypet.html">HEALTHY PET</a>
-      </div> 
+     
 
-      <div class="col-2of10">
+      <div class="col-3of10">
         <a href="yourstory.html">YOUR STORY</a>
       </div> 
 
-      <div class="col-2of10">
+      <div class="col-3of10">
         <a href="aboutus.html">ABOUT US</a>
       </div>
 
     </nav><!--grid for nav bar-->
-    </header>
+    
 
+  
+ <div class="bg">
+  <img src="img/beachdog.jpg">
+  </div> <!--close bg--> 
 
-    <div class="grid">    <!--grid for content-->
-      <article id="awards">
-        <div class="col-6of10"><!--col for 'awards'-->
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum. Etiam accumsan imperdiet urna tincidunt mattis. Nam ac sem at massa semper placerat. Cras maximus ligula quis feugiat eleifend. Nunc interdum ex et urna bibendum, eget sollicitudin lorem auctor. Suspendisse vel suscipit dolor, facilisis malesuada felis. Morbi vel ante enim. Duis nisl felis, placerat quis felis eu, ultrices maximus lectus. Donec tempus bibendum egestas. Fusce congue ultricies eros a consectetur. Donec tincidunt orci nibh, pulvinar scelerisque sapien pulvinar sed.
-          </p>
-        </div> <!--close awards col-->
-      </article>
-
-        <div class="col-4of10">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.
-          </p>
-        </div>
-
-        <article id="new product">
-          <div class="col-4of10">
-            <p>
-            Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.
-            </p>
-          </div>
-        </article>
-
-        <div class="col-4of10">
-        <img src="img/cow.jpg" alt="cows">
-      </div>
-    </div> <!--close grid for content-->
-
-
-
-	</body>
+  </body>
   </html>

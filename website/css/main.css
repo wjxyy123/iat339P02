@@ -1,4 +1,4 @@
-/*styleguide*/
+
 
 a.button {
 font-family: 'Roboto', sans-serif;
@@ -24,59 +24,57 @@ img{
    height: auto;
 }
 
-body { /*styleguide is ...*/
+body { 
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2rem;
 
  }
 
-nav a {
 
-	font-weight: bold;
-	
-	display: inline-block;
-	color: white;
-	background-color: #FF6600;
-	text-align: center; 
-	width: 120px;
-	
-	
-	padding:0.9rem 0.6rem ; /*the order of padding is top,right,bottom,left*/
-	text-decoration: none; 
-	border-radius: 5px; 
-	
-}
- 
+ .bg img{
+ 	width:100%;
+ 	height:100%;
+ 	
+ }
 
-h1{
-	font-size: 3rem;
-	margin-left: 0.1rem;
+ .overlay img{
+	position:absolute;
+	z-index:1;
+	
 
 }
 
-p{
-	margin-left: 0.1rem;
-	text-align: left;
-}
 
-h2,p{
+
+nav a{
+	display:inline-block;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 200;
-	margin-top: 0.1em;
-	margin-bottom: 1rem;
-	margin-left: 0.2rem;
-}
-
-h3{ /*css selector, code sample*/
-	font-family: 'roboto', sans-serif;
-	font-weight:700;
-	font-size: 1rem;
-}
-
- 
+	font-weight: 700;
+	font-size: 1.5rem;
+	color:#FBEAB8;
+	background-color: #EE6C3E;
+	padding: 1.5em 3em;
 
 
-nav a:first-of-type {
-	margin-left: 0;
+	text-decoration: none;
 
 }
+
+
+
+
+
+body,html{
+	width:100%;
+	height:100%;
+}
+
+
+
+
+
+
+
+
+
+
