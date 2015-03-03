@@ -7,7 +7,7 @@
 [class^='col-'] {
 	float: left;
 	padding-right:20px; 
-	text-align: center; 
+	text-align: left; 
 }
 
 .col-5of10 {
