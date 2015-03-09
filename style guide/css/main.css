@@ -157,6 +157,17 @@ code{
 
 }
 
+select {
+  margin: 2em;
+  border: 1px solid #111;
+  background: transparent;
+  width: 10em;
+  padding: 2em 2em 2em 2em;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  height: 2em; 
+}
+
 #codeblock{
 	display: block;
 	list-style: none;

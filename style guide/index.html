@@ -24,9 +24,7 @@
    	<a href="#Typography">TYPOGRAPHY</a>
     <a href="#buttons">BUTTONS</a>
     <a href="#Navigation">NAVIGATION</a>
-    <!--
-    <a href="#ProductSelector">PRODUCT SELECTOR</a>
-     -->
+    <a href="#Filter">FILTER</a>
     <a href="#images">IMAGES</a>
     <a href="#Forms">FORMS</a>
     </nav>
@@ -103,54 +101,55 @@
       <h1>NAVIGATION</h1>
       <p id="navg2">Two types of navigation will be used in the website. The main navigation is on the home page navigate the users through main features of the website. The assistant navigation that is located on top of each child pages that indicate the user's position inside the website(to be added). </p>
 
-      <p id="navg3">ABOUT US </p>
       <p id="navg3">PRODUCTS </p>
-      <p id="navg3">OUR FARMS </p>
-      <p id="navg3">RETAIL STORES </p>
-      <p id="navg3">COMMENTS </p>
+      <p id="navg3">ABOUT US </p>
+      <p id="navg3">YOUR STORY </p>
 
 
       <h3>CSS selector:</h3>
-      <p>'#navg3'</p>
+      <p>'navg3'</p>
       <h3>Sample code:</h3>
       
       <ul id="codeblock">
       <code>
 
+      <li>&lt;p id="navg3"&gt;PRODUCTS &lt;/p&gt;</li>
       <li>&lt;p id="navg3"&gt;ABOUT US &lt;/p&gt;</li>
-      <li>&lt;p id="navg3">PRODUCTS &lt;/p&gt;</li>
-      <li>&lt;p id="navg3">OUR FARMS &lt;/p&gt;</li>
-      <li>&lt;p id="navg3">RETAIL STORES &lt;/p&gt;</li>
-      <li>&lt;p id="navg3">COMMENTS &lt;/p&gt;</li>
+      <li>&lt;p id="navg3"&gt;YOUR STORY &lt;/p&gt;</li>
      </code> 
   	
   </ul>
-    
+      
     </section>
 
     <section id="images">
       <h1>IMAGES</h1>
       <p id="img2">Photograogy gathered from the internet will be the main source of image. There is a collection of photography on dogs of different life stages, which are to be used as a background for the headers of different pages. </p>
-      <img src="img/beachdog.jpg" height="324" width="558" alt="two dogs running on beach wildly">
+      <img src="img/beachdog.jpg" height="300" alt="two dogs running on beach wildly">
+      <img src="img/dog-foods.jpg" height="300" alt="product entry for dog foods">
+      <img src="img/productimage/dogfood/puppy.png" height="300" alt="product image of dog food Puppy ">
       <h3>CSS selector:</h3>
-      <p>'#img2'</p>
+      <p>'img2'</p>
       <h3>Sample code:</h3>
       <code>&lt;img src="img/beachdog.jpg" height="324" width="558" alt="two dogs running on beach wildly"&gt;</code>
      
       
     </section>
 
-    <section id="ProductSelector">
-      <h1>PRODUCT SELECTOR</h1>
+    <section id="Filter">
+      <h1>FILTER</h1>
       <h3>CSS selector:</h3>
-      <p>'a.button'</p>
-      <select>
-        <option value="Cat">Cat</option>
-        <option value="Dog">Dog</option>
-      </select>
+      <p>'select'</p>
+      <h3>Age range</h3>
+        <select >
+          <option value="Less than one month">Less than one month</option>
+          <option value="One to eight months">One to eight month</option>
+            <option value="Eight months to two years">Eight months to two years</option>
+          <option value="Two years and above">Two years and above</option>
+        </select>
 
       <h3>Sample code:</h3>
-      <code>&lt;option value="Cat"&gt;Cat &lt;/option&gt;</code>
+      <code>&lt;option value="Less than one month"&gt;Less than one month &lt;/option&gt;</code>
 
     </section>
 
