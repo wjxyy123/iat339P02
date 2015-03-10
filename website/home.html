@@ -26,54 +26,106 @@
 </head>
   
   <body>
-    <!--
-    <a href="shoppingcart.html">YOUR CART</a>-->
+
+    <div class="btn">
   
+    <img src="img/cart_large_cart.png">
+    
+  </div><!--close btn--> 
+
+  <div class="overlay">
+
+  <img 
+  src="img/logo-1.png"
+  srcset="img/logo-2.png 900w,
+          img/logo-3.png 1800w">  
+
+  <!--<img src="img/awards-01.png 900w" class="awards"
+    srcset="img/awards-02.png 1800w">-->
+
+
+  </div> 
+
+<section id="backtop"> 	
+<nav class="top"> <!--grid for nav bar-->
+      <div class="col-3of10">
+        <a href="catagory.html">PRODUCT</a>
+      </div>
+      <div class="col-3of10">
+        <a href="yourstory.html">YOUR STORY</a>
+      </div>
+
+      <div class="col-3of10">
+        <a href="aboutus.html" class="wt">ABOUT US</a>
+      </div>
+
+    </nav>
+</section>
+     
  
 
 
 
-<div class="overlay">
 
-  <img 
-  src="img/logo-x3.png "
-  srcset="img/logo-x2.png 2x,
-          img/logo-x1.png 1x">  
+<div class="bg">
+  <img src="img/beachdog.jpg">
+</div> <!--close bg--> 
 
-<picture> <!--   >900 load lareg-->
-   <source 
-        media="(min-width: 500px)" 
-        srcset="img/logo-x3.png 3x">
+ 
 
-   <source 
-        srcset="img/logo.png 1x, img/logo.png 2x">
-    
-</picture>
+<div class="bottom">
 
-  </div>
-  	
-<nav class="grid1"> <!--grid for nav bar-->
-      <div class="col-3of10">
-        <a href="catagory.html">PRODUCT</a>
-      </div> 
-
+ <div class="newproduct">
+  
+  <div class="col-7of10">
+      
      
 
       <div class="col-3of10">
-        <a href="yourstory.html">YOUR STORY</a>
-      </div> 
 
-      <div class="col-3of10">
-        <a href="aboutus.html">ABOUT US</a>
+        <img src="img/new.png" class="newprod" wdith="300">
+
+      </div> <!--close img col-->
+
+     <div class="col-4of10">
+      <h3 class="new">NEW PRODUCT</h3>
+       <a href="learn" id="learn">LEARN MORE</a>
+       <p class="new">Our new Six Fish Recipe was inspired by the rich diversity of fish available in our local water. Captured from wild, cooked immediately from freshest fish and vegetables. 
+
+        </p>
+
+      
       </div>
-
-    </nav><!--grid for nav bar-->
+  </div> <!--close col7-->
+ </div><!--close newprod-->
+ 
+ <div class="formsign">
+  <div class="col-3of10">
+   <form method="signup" action="#">
     
+    <p class="sign">Sign up to get 10% OFF on your first purchase</p>
+     
+        
+        <input type="text" id="form-email" placeholder="EMAIL">
+
+        <input type="text" id="form-email" placeholder="PASSWORD">
+        <input type="text" id="form-email" placeholder="VERIFY PASSWORD">
+        <input type="submit" value="SUBMIT" class="submitbtn">
+      
+
+  </form><!--close form--> 
 
   
- <div class="bg">
-  <img src="img/beachdog.jpg">
-  </div> <!--close bg--> 
+</div><!--close col5-->
+</div><!--close fromsign-->
+
+    
+<a href="#backtop" class="footer">BACK TO TOP</a> 
+</div>
+<!--close bot-->
+
+
+  
 
   </body>
   </html>

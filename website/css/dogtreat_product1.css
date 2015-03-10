@@ -65,3 +65,34 @@
     padding: 5px;
   }
 }
+
+nav a{
+	position:absolute;
+	float:right;
+	top:0.8em;
+	display:inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 1em;
+	color:#FBEAB8;
+	text-decoration: none;
+}
+
+.btn{ /*bg color of navbar*/
+	
+	background-color:#EE6C3E;
+	 
+} 
+
+p{
+	font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+
+.add{
+	position:absolute;
+
+	left:8em;
+	bottom:4em;
+} 
+

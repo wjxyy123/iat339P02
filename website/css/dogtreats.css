@@ -67,6 +67,7 @@
 
 select {
   margin: 2em;
+  margin-bottom: 10em;
   border: 1px solid #111;
   background: transparent;
   width: 10em;
@@ -75,3 +76,21 @@ select {
   border: 1px solid #ccc;
   height: 2em; 
 }
+
+nav a{
+	top:1em;
+	position: absolute;
+	display:inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 1em;
+	color:#FBEAB8;
+	text-decoration: none;
+}
+
+.btn{
+	background-color:#EE6C3E;
+}
+
+
+

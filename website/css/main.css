@@ -1,31 +1,8 @@
 
 
-a.button {
-font-family: 'Roboto', sans-serif;
-font-size: 0.95rem;
-font-weight: 300;
-  display: inline-block;
-  padding: 0.5em 0.7em;
-  color: white;
-  background-color: #FF6600;
-  border-radius: 0.5em;
-  text-decoration: none;
-  -webkit-transition: background-color ease;
-  transition: background-color ease;
-}
-a.button:hover, a.button:focus {
-  background-color: #1987AC;
-
-}
-
-
-img{
-   max-width: 100%;
-   height: auto;
-}
-
 body { 
   font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
   padding: 2rem;
 
  }
@@ -39,64 +16,119 @@ body {
 
  .overlay img{
 	position:absolute;
-	z-index:1;
-	
+	z-index:2;
+	left:35%;
+	top:16rem;
 
-}
+} 
 
+/*img.awards{
+	position:absolute;
+	z-index: 1;
+	left:5%;
+	top:5rem;
+}*/
 
 
 nav a{
+	position:absolute;
+	top:1.5em;
+
+	float:right;
 	display:inline-block;
+	
 	font-family: 'Roboto', sans-serif;
 	font-weight: 700;
-	font-size: 1.5rem;
+
+	font-size: 1em;
 	color:#FBEAB8;
-	background-color: #EE6C3E;
-	padding: 1.5em 3em;
-
-
 	text-decoration: none;
-
 }
 
-h1{
-	display:inline;
+.btn{ /*bg color of navbar*/
+	
+	background-color:#EE6C3E;
+	 
+}  	 
+
+.bottom{  /*bg color of bottom info*/
+	position:relative;
+	width:100%;
+	height:40%;
 	font-family: 'Roboto', sans-serif;
-	font-weight: 1.5rem;
-	font-size: 2.5rem;
-	padding: 1em 1em;
+	color:#AADBD2;
+	background-color: #6A5D48;
 }
 
-h2{
-	display:inline;
+
+
+.footer{  
 	font-family: 'Roboto', sans-serif;
-	font-weight: 0.5rem;
-	font-size: 1.5rem;
-	padding: 0.8em 0.8em;
+	position:absolute;
+	top:100%;
+	text-align: center;
+	color:#FBEAB8; /*ylwW*/
+	background-color:#EE6C3E;
+	width:100%;
+	text-decoration: none;
+	
 }
 
-h3{
-	display:inline;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 0.5rem;
-	font-size: 1.2rem;
-	padding: 0.8em 0.8em;
+input{
+
+	padding: 1em;
+	border:none;
+	margin:0.3em;
+	width:100%;
+	background-color:white;
+
+}
+.submitbtn{
+	color:white;
+	background-color:#AADBD2;
+	border-radius: 0 .8em 0 .8em;
+}
+
+#learn{
+	background-color:#AADBD2;
+	font-size:0.7em;
+	text-decoration: none;
+	padding: 1em;
+	margin-left:1.5em;
+	color:white;
+	
+	border-radius: 0 .8em 0 .8em;
+
+}
+
+h3,p.new{
+	font-size: 1.5em;
+	padding:1.5em;
+	line-height: 1.2em;
+}
+
+p.sign{
+	font-size: 1.5em;
+	padding:1.5em;
+	line-height: 1.2em;
+}
+
+.newprod{
+	padding:2em;
 }
 
 
-p{
-	font-family: 'Roboto', sans-serif;
-	font-size: 1rem;
-	padding: 0.5em;
-	font
-}
 
 
-body,html{
+
+body,html{ 
+	padding:0;
+	margin:0;
+	border: 0;
 	width:100%;
 	height:100%;
 }
+
 
 
 

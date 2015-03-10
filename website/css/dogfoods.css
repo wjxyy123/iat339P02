@@ -65,8 +65,12 @@
 	display: inline-block;
 }
 
+
+
 select {
+	
   margin: 2em;
+ 
   border: 1px solid #111;
   background: transparent;
   width: 10em;
@@ -77,9 +81,19 @@ select {
 }
 
 
-@media screen and (min-width: 0\0) {
-  select {
-    background: none;
-    padding: 5px;
-  }
+nav a{
+
+	
+	top:1em;
+	position: absolute;
+	display:inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 1em;
+	color:#FBEAB8;
+	text-decoration: none;
+}
+
+.btn{
+	background-color:#EE6C3E;
 }

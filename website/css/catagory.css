@@ -5,7 +5,7 @@
 }
 
 [class^='col-'] {
-	float: left;
+	float:right;
 	padding-right:20px; 
 	text-align: center; 
 }
@@ -91,4 +91,26 @@
 	content: "";
 	display: block;
 	clear: both;
+}
+
+nav a{
+	position:absolute;
+	float:right;
+	top:0.8em;
+	display:inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 1em;
+	color:#FBEAB8;
+	text-decoration: none;
+}
+
+.btn{ /*bg color of navbar*/
+	
+	background-color:#EE6C3E;
+	 
+}  
+
+h3.prod{
+   font-size: 1.5em;
 }
