@@ -70,6 +70,12 @@
 	}
 }
 
+.grid:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
 
 
 /*4 */
@@ -103,10 +109,10 @@
 	width: 70%;
 }
 
-@media (max-width: 40em) {
+@media (max-width: 50em) {
 
 	.col-7of10{
-		border-bottom:1px solid black;
+		border-bottom:1px solid #AADBD2;
 
 		width:100%;
 	}
@@ -132,7 +138,11 @@
 	}
 	
 }
-
+.grid:after {
+	content: "";
+	display: block;
+	clear: both;
+}
 
 
 .col-8of10{
