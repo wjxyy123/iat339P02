@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>BARKA| The Dog Food Expert</title>
+    <title>BARKA | The Dog Food Expert</title>
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/main.css">
 
@@ -26,12 +26,13 @@
 </head>
   
   <body>
-
+<!--
     <div class="btn">
   
     <img src="img/cart_large_cart.png">
     
-  </div><!--close btn--> 
+  </div> close btn-->
+  <div id="container">
 
   <div class="overlay">
 
@@ -45,23 +46,23 @@
 
 
   </div> 
-
+<header>
 <section id="backtop"> 	
 <nav class="top"> <!--grid for nav bar-->
-      <div class="col-3of10">
+      <div class="col-1of3">
         <a href="catagory.html">PRODUCT</a>
       </div>
-      <div class="col-3of10">
+      <div class="col-1of3">
         <a href="yourstory.html">YOUR STORY</a>
       </div>
 
-      <div class="col-3of10">
+      <div class="col-1of3">
         <a href="aboutus.html" class="wt">ABOUT US</a>
       </div>
 
     </nav>
 </section>
-     
+</header>
  
 
 
@@ -75,19 +76,21 @@
 
 <div class="bottom">
 
- <div class="newproduct">
+ <article id="newproduct">
   
   <div class="col-7of10">
       
      
 
-      <div class="col-3of10">
-
-        <img src="img/new.png" class="newprod" wdith="300">
+      <div class="col-4of10">
+        <figure>
+        <img src="img/new.png" class="newprod">
+        </figure>     
+         
 
       </div> <!--close img col-->
 
-     <div class="col-4of10">
+     <div class="col-6of10">
       <h3 class="new">NEW PRODUCT</h3>
        <a href="learn" id="learn">LEARN MORE</a>
        <p class="new">Our new Six Fish Recipe was inspired by the rich diversity of fish available in our local water. Captured from wild, cooked immediately from freshest fish and vegetables. 
@@ -97,13 +100,13 @@
       
       </div>
   </div> <!--close col7-->
- </div><!--close newprod-->
+ </article><!--close newprod-->
  
- <div class="formsign">
+ <article id="formsign">
   <div class="col-3of10">
    <form method="signup" action="#">
     
-    <p class="sign">Sign up to get 10% OFF on your first purchase</p>
+    <h3 class="sign">Sign up to get 10% OFF on your first purchase!</h3>
      
         
         <input type="text" id="form-email" placeholder="EMAIL">
@@ -117,13 +120,11 @@
 
   
 </div><!--close col5-->
-</div><!--close fromsign-->
+</article><!--close fromsign-->
 
-    
-<a href="#backtop" class="footer">BACK TO TOP</a> 
-</div>
-<!--close bot-->
 
+
+</div> <!--close container-->
 
   
 

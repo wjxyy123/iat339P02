@@ -36,7 +36,7 @@
 	width: 20%;
 }
 
-@media (max-width: 30em) {
+@media (max-width: 50em) {
 
 	.col-2of10 {
 		
@@ -66,11 +66,6 @@
 	}
 }
 
-.grid:after {    /*clear grid */
-	content: "";
-	display: block;
-	clear: both;
-}
 
 
 /*4 */
@@ -81,7 +76,7 @@
 	
 	width: 30%;
 }
-@media (max-width: 30em) {
+@media (max-width: 50em) {
 
 	.col-3of10{
 		width:100%;
@@ -107,6 +102,8 @@
 @media (max-width: 40em) {
 
 	.col-7of10{
+		border-bottom:1px solid black;
+		
 		width:100%;
 	}
 	
@@ -127,6 +124,27 @@
 @media (max-width: 50em) {
 
 	.col-6of10{
+		width:100%;
+	}
+	
+}
+.col-8of10{
+	width: 80%;
+}
+
+
+
+
+/*6 */
+/*-------------------------------------------------*/
+.col-1of3{
+	
+	width: 33.33%;
+}
+
+@media (max-width: 50em) {
+
+	.col-1of3{
 		width:100%;
 	}
 	
