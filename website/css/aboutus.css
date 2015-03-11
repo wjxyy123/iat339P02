@@ -9,16 +9,16 @@ nav a{
 }
 
  .bg img{
-
+ 	
  	width:100%;
  	height:100%;
  	z-index: 1;
- 	
  }
+
 
  .transbox{
  	position:absolute;
- 	top:20%;
+ 	
  	width:100%;
  	background-color:white;
  	opacity:0.7;
@@ -26,10 +26,53 @@ nav a{
  	z-index:2;
  }
 
- h3.abt{
- 	padding:1.5em;
- 	font-size: 1.8em;
- }
+
+
+
+ .col-1of3{
+	
+	width: 33.33%;
+}
+
+@media (max-width: 50em) {
+
+	.col-1of3{
+		border-bottom: 1px solid black;
+
+		width:100%;
+	}
+	
+}
+.grid:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+ul.ct{
+	
+	list-style-type: none;
+
+}
+
+ul.ct1{
+	list-style-type: none;
+	padding-top: 7em;
+}
+
+
+
+#contact{
+	border-top: 1px solid black;
+	
+
+}
+
+
+
+
+
+
 
 
 

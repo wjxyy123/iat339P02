@@ -5,9 +5,13 @@
 }
 
 [class^='col-'] {
+	text-align: center;
 	float: right;
 	padding: 20px;
-	
+}
+
+[class*='col-']:last-of-type {
+  padding-right: 0;
 }
 
 /*5 */
@@ -103,7 +107,7 @@
 
 	.col-7of10{
 		border-bottom:1px solid black;
-		
+
 		width:100%;
 	}
 	
@@ -128,6 +132,9 @@
 	}
 	
 }
+
+
+
 .col-8of10{
 	width: 80%;
 }
