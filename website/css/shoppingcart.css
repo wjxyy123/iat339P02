@@ -8,11 +8,92 @@ nav a{
 	text-decoration: none;
 }
 
+.container{
+	text-align: left;
+	width:100%;
+}
+
 .btn{ /*bg color of navbar*/
 	
-	background-color:#EE6C3E;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color:white;
+	border:none;
+	background-color:#AADBD2;
+	border-radius: 0 .8em 0 .8em;
 	 
-}  	 
+}
+
+.btnenlarge{ /*bg color of navbar*/
+
+	margin:2em;
+	width:30%;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	color:white;
+	border:none;
+	background-color:#AADBD2;
+	border-radius: 0 .8em 0 .8em;
+	 
+}
+
+
+table{
+	background-color:#FBFBFB;
+	position:relative;
+	margin:2em;
+	margin-left: 9em;
+	margin-top: 8em;
+	padding:2em;
+	width: 80%;
+	text-align: center;
+
+}
+
+@media (max-width: 50em) {
+
+	table{
+		position:relative;
+		width:100%;
+	}
+	
+}
+
+th{
+	width:5em;
+}
+
+table, td, th {
+    border: 1px solid #AADBD2;
+    border-collapse: collapse;
+}
+
+#pricelist{
+	text-align: left;
+}
+
+
+select {
+	
+  margin: 2em;
+ 
+  border: 1px solid #111;
+  background: transparent;
+  width: 10em;
+  padding: 2em 2em 2em 2em;
+  border: 1px solid #ccc;
+  height: 2em; 
+}
+
+ul{
+	padding: 2em;
+	margin:1em;
+	background-color: #FBFBFB;
+	text-align: center;
+}
+
+
+
 
 .footer{  
 	font-family: 'Roboto', sans-serif;
@@ -24,8 +105,4 @@ nav a{
 	width:100%;
 	text-decoration: none;
 	
-}
-
-img{
-	padding-left: 4em;
 }

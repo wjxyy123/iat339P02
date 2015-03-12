@@ -23,7 +23,7 @@ nav a{
  	width:100%;
  	background-color:white;
  	
- 	height:30em;
+ 	height:40em;
  	z-index:2;
  }
 
@@ -84,7 +84,8 @@ ul.ct1{
 }
 
 #contact{
-	
+	padding: 2em;
+	background-color: #C9C9C9;
 	position: absolute;
 	top:3.8em;
 	left:0;
